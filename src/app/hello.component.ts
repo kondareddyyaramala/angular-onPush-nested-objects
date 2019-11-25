@@ -3,9 +3,9 @@ import { User } from './user';
 
 @Component({
   selector: 'hello',
-  template: `<app-child-one></app-child-one>`,
+  template: `<app-child-one [address]="user?.address"></app-child-one>`,
   styles: [`h1 { font-family: Lato; }`],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HelloComponent  {
   @Input() user: User;

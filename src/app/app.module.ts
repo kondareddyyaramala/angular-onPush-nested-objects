@@ -12,3 +12,5 @@ import { ChildOneComponent } from './child-one/child-one.component';
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
+
+// The Idea of this project is that when we have 
